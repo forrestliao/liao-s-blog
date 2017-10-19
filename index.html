@@ -1,738 +1,243 @@
 <!DOCTYPE html>
+<html lang="en">
 
-
-
-  
-
-
-<html class="theme-next mist use-motion" lang="zh-Hant">
+<!-- Head tag -->
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Description-->
+    
+        <meta name="description" content="bbbb">
+    
 
+    <!--Author-->
+    
+        <meta name="author" content="Forrest Liao">
+    
 
+    <!--Open Graph Title-->
+    
 
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Liao&#39;s Blog"/>
 
+    <!--Page Cover-->
+    
+        <meta property="og:image" content=""/>
+    
 
+    <!-- Title -->
+    
+    <title>Liao&#39;s Blog</title>
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/liao-s-blog/sass/main.css">
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 8]>
+        <script src="/liao-s-blog/js/ie/html5shiv.js"></script>
+    <![endif]-->
 
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="/liao-s-blog/sass/ie8.css">
+    <![endif]-->
 
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="/liao-s-blog/sass/ie9.css">
+    <![endif]-->
 
+    <!-- Gallery -->
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/liao-s-blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/liao-s-blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/liao-s-blog/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/liao-s-blog/images/apple-touch-icon-next.png?v=5.1.3">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/liao-s-blog/images/favicon-32x32-next.png?v=5.1.3">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/liao-s-blog/images/favicon-16x16-next.png?v=5.1.3">
-
-
-  <link rel="mask-icon" href="/liao-s-blog/images/logo.svg?v=5.1.3" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="bbbb">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Liao&#39;s Blog">
-<meta property="og:url" content="https://z9508010531.github.io/liao-s-blog/index.html">
-<meta property="og:site_name" content="Liao&#39;s Blog">
-<meta property="og:description" content="bbbb">
-<meta property="og:locale" content="zh-Hant">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Liao&#39;s Blog">
-<meta name="twitter:description" content="bbbb">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/liao-s-blog/',
-    scheme: 'Mist',
-    version: '5.1.3',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="https://z9508010531.github.io/liao-s-blog/"/>
-
-
-
-
-
-  <title>Liao's Blog</title>
-  
-
-
-
-
-
-
+    <!-- Google Analytics -->
+    
 
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hant">
+<body>
 
-  
-  
-    
-  
+    <div id="wrapper">
 
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
+        <!-- Menu -->
+        <!-- Header -->
+<header id="header">
+    <div class="inner">
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+        <!-- Logo -->
+        <a href="/liao-s-blog/" class="logo">
+            <span class="symbol"><img src="/images/logo.svg" alt="" /></span><span class="title">Liao's Blog</span>
+        </a>
 
-    <div class="custom-logo-site-title">
-      <a href="/liao-s-blog/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Liao's Blog</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+        <!-- Nav -->
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+
     </div>
-      
-        <p class="site-subtitle">aaaa</p>
-      
-  </div>
+</header>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
+<!-- Menu -->
+<nav id="menu">
+    <h2>Menu</h2>
+    <ul>
         
-        <li class="menu-item menu-item-home">
-          <a href="/liao-s-blog/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            Startseite
-          </a>
-        </li>
-      
+            <li>
+                <a href="/liao-s-blog/">Home</a>
+            </li>
         
-        <li class="menu-item menu-item-archives">
-          <a href="/liao-s-blog/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archiv
-          </a>
-        </li>
-      
-
-      
+            <li>
+                <a href="/liao-s-blog/archives">Archives</a>
+            </li>
+        
+            <li>
+                <a href="/liao-s-blog/about.html">About</a>
+            </li>
+        
     </ul>
-  
-
-  
 </nav>
 
 
+        <div id="main">
+            <div class="inner">
 
- </div>
-    </header>
+                <!-- Main Content -->
+                <header>
+    <h1>This is Phantom, a free, fully responsive site<br />template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+    <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+</header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
+<section class="tiles">
     
-      
+        
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://z9508010531.github.io/liao-s-blog/liao-s-blog/2017/10/12/yoyoyo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Forrest Liao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/liao-s-blog/images/avatar.gif">
+<article class="style1">
+    <span class="image">
+        <img src="http://placehold.it/450x450" alt="" />
     </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liao's Blog">
-    </span>
-
+    <a href="/liao-s-blog/2017/10/12/yoyoyo/">
+        <h2>yoyoyo</h2>
+        <div class="content">
+            <p></p>
+        </div>
+    </a>
+</article>
     
-      <header class="post-header">
+        
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+<article class="style2">
+    <span class="image">
+        <img src="http://placehold.it/450x450" alt="" />
+    </span>
+    <a href="/liao-s-blog/2017/10/11/hello-world/">
+        <h2>Hello World</h2>
+        <div class="content">
+            <p></p>
+        </div>
+    </a>
+</article>
+    
+</section>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <section>
+            <h2>About</h2>
+            <div>
+                This theme was initially developed by <a href="http://html5up.net" target="_blank">HTML5 UP</a>. It is adapted for Hexo by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a>.<br />The source code is available on <a href="https://github.com/klugjo/hexo-theme-phantom" target="_blank">GitHub</a>.
+            </div>
+        </section>
+        <section>
+            <h2>Follow</h2>
+            <ul class="icons">
                 
-                <a class="post-title-link" href="/liao-s-blog/2017/10/12/yoyoyo/" itemprop="url">yoyoyo</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-12T16:55:32+08:00">
-                2017-10-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://z9508010531.github.io/liao-s-blog/liao-s-blog/2017/10/11/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Forrest Liao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/liao-s-blog/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liao's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+                    <li><a href="https://twitter.com/?lang=en" class="icon style2 fa-twitter" target="_blank" ><span class="label">Twitter</span></a></li>
                 
-                <a class="post-title-link" href="/liao-s-blog/2017/10/11/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-11T16:25:11+08:00">
-                2017-10-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
+                
+                    <li><a href="https://www.facebook.com/" class="icon style2 fa-facebook" target="_blank" ><span class="label">Facebook</span></a></li>
+                
+                
+                    <li><a href="https://www.instagram.com/" class="icon style2 fa-instagram" target="_blank" ><span class="label">Instagram</span></a></li>
+                
+                
+                    <li><a href="https://dribbble.com/" class="icon style2 fa-dribbble" target="_blank" ><span class="label">Dribbble</span></a></li>
+                
+                
+                    <li><a href="https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo" class="icon style2 fa-github" target="_blank" ><span class="label">GitHub</span></a></li>
+                
+                
+                    <li><a href="https://plus.google.com/" class="icon style2 fa-google-plus" target="_blank" ><span class="label">Google+</span></a></li>
+                
+                
+                    <li><a href="https://www.behance.net/" class="icon style2 fa-behance" target="_blank" ><span class="label">Behance</span></a></li>
+                
+                
+                    <li><a href="https://500px.com/" class="icon style2 fa-500px" target="_blank" ><span class="label">500px</span></a></li>
+                
+                
+                    <li><a href="\#" class="icon style2 fa-envelope-o" target="_blank" ><span class="label">Email</span></a></li>
+                
+                
+                    <li><a href="\#" class="icon style2 fa-rss" target="_blank" ><span class="label">RSS</span></a></li>
+                
+            </ul>
+        </section>
+        <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved</li>
+            <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+            <li>Hexo: <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></li>
+        </ul>
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+</footer>
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
+    <!-- After footer scripts -->
     
-    <div class="sidebar-inner">
+<!-- jQuery -->
+<script src="/liao-s-blog/js/jquery.min.js"></script>
 
-      
+<!-- skel -->
+<script src="/liao-s-blog/js/skel.min.js"></script>
 
-      
+<!-- Custom Code -->
+<script src="/liao-s-blog/js/util.js"></script>
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Forrest Liao</p>
-              <p class="site-description motion-element" itemprop="description">bbbb</p>
-          </div>
+<!--[if lte IE 8]>
+<script src="/liao-s-blog/js/ie/respond.min.js"></script>
+<![endif]-->
 
-          <nav class="site-state motion-element">
+<!-- Custom Code -->
+<script src="/liao-s-blog/js/main.js"></script>
 
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/liao-s-blog/archives/">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">Artikel</span>
-                </a>
-              </div>
-            
+<!-- Gallery -->
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
-            
-
-            
-
-          </nav>
-
-          
-
-          <div class="links-of-author motion-element">
-            
-          </div>
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Forrest Liao</span>
-
-  
-</div>
-
-
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.3</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
+<!-- Disqus Comments -->
 
 <script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
+    var disqus_shortname = 'klugjo';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
 </script>
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/liao-s-blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/liao-s-blog/js/src/utils.js?v=5.1.3"></script>
-
-  <script type="text/javascript" src="/liao-s-blog/js/src/motion.js?v=5.1.3"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/liao-s-blog/js/src/bootstrap.js?v=5.1.3"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
 </body>
+
 </html>
