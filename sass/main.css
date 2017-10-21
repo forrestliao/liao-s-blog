@@ -2382,7 +2382,7 @@ button,
       overflow: hidden; }
       .tiles article > .image img {
         display: block;
-        width: 100%; }
+        height: 100%; }
       .tiles article > .image:before {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
