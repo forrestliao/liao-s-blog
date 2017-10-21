@@ -2377,7 +2377,7 @@ button,
       transition: transform 0.5s ease;
       position: relative;
       display: block;
-      height: 100%;
+      width: 100%;
       border-radius: 4px;
       overflow: hidden; }
       .tiles article > .image img {
