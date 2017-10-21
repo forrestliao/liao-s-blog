@@ -2377,12 +2377,12 @@ button,
       transition: transform 0.5s ease;
       position: relative;
       display: block;
-      width: 100%;
+      height: 100%;
       border-radius: 4px;
       overflow: hidden; }
       .tiles article > .image img {
         display: block;
-        height: 100%; }
+        width: 100%; }
       .tiles article > .image:before {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
