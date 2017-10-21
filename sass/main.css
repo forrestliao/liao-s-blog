@@ -2378,11 +2378,14 @@ button,
       position: relative;
       display: block;
       width: 100%;
+      height: 100%;
       border-radius: 4px;
       overflow: hidden; }
       .tiles article > .image img {
         display: block;
-        width: 100%; }
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
       .tiles article > .image:before {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
